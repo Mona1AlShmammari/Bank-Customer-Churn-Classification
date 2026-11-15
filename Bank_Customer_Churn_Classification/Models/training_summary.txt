@@ -1,0 +1,5 @@
+Best model by validation F1: Random Forest\n\n              Model  Accuracy  Precision   Recall       F1  ROC_AUC
+      Random Forest  0.847366   0.632706 0.664233 0.648086 0.878655
+        Extra Trees  0.823916   0.562984 0.750000 0.643173 0.879189
+      Decision Tree  0.807556   0.530502 0.786942 0.633764 0.881452
+Logistic Regression  0.759930   0.458125 0.736254 0.564807 0.822716\n\nLR tuning: {'model__C': 5}\nDT tuning: {'model__min_samples_leaf': 80, 'model__max_depth': 10}\n
